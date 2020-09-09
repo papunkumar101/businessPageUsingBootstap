@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#text{
+  padding-top:20%;
+}
+#more1{
+  display: none;
+}
+#more2{
+  display: none;
+}
+#more3 {
+  display: none;
+}
+#more4 {
+  display: none;
+}
+#more5 {
+  display: none;
+}
+#more6{
+  display: none;
+}
+button#myBtn1 {
+ border:none;
+}
+button#myBtn2 {
+  border: none;
+}
+button#myBtn3{
+  border: none;
+}
+button#myBtn4 {
+  border: none;
+}
+button#myBtn5 {
+  border: none;
+}
+button#myBtn6{
+  border: none;
+}

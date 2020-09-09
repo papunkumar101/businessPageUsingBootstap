@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML + Bootstrap</title>
+  
+  <!-- FONT AUWSOM -->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.2/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.2/dist/css/bootstrap.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+       <!--start---NAVBAR-------->
+       
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand text-danger" href="#">HYPER DEV</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">HELP</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            SERVICES
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#develop">Web develop</a>
+            <a class="dropdown-item" href="#design">web design</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#develop">other website related services</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#contact">CONTACT US</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+     <!--start---NAVBAR-------->
+    <!--start---BG IMAGE-------->
+    
+  <div class="card bg-dark text-white">
+    <img src="bgimage.jpg" class="card-img" alt="bg image">
+    <div class="card-img-overlay">
+      <h5 id="text"class="card-title text-center  text-warning">WELCOME TO HYPER DEVELOPERS DASK</h5>
+      <!--<p class="card-text">hyy there in this page you can know about our support and services. </p>
+      <p class="card-text">Last updated 3 mins ago</p>-->
+    </div>
+  </div>
+      <!--end---BG IMAGE-------->
+    <!--start---JUMBOTRON------->
+        <a name="home"></a>
+  <div class="jumbotron">
+    <h6 class="display-4">About </h6>
+    <p class="lead">hyper dev pvt Ltd is an Award Winning technology company working with global Enterprises, Msmi and forward-thinking Start-Ups as their end-to-end solution partners for custom-tailored software, web and web apps. Through a combination of smart planning, design thinking approach, and the latest technologies, we help our clients to accelerate their business efficiency.hyper dev is a top custom web development company with a mission to help successful companies extend their tech capacity. Since 2020, <span id="dots1">....</span><span id="more1"> Our team of 4+ experts has helped businesses elevate their value through our development services.  Our teams help you decide the right architecture and processes to follow and oversee the successful delivery of your web projects. You run your business. We take care of your development needs. To get a free consultation, visit our website and fill up the contact form.</span> <button class="btn btn-outline-primary" id="myBtn1" onclick="myFunction1()">read more</button></p>
+    <hr class="my-4">
+    <p>Modern web applications often contain three or more tiers, and depending on the size of the team a developer works on, he or she may specialize in one or more of these tiers - or may take a more interdisciplinary role. A web developer is usually classified as a Front-end web development or a Back-End Web Developer. For example, in a two-person team, one developer may focus on the technologies sent to the client such as HTML, JavaScript, CSS, ReactJs or AngularJS and on the server-side frameworks (such as Perl, Python, Ruby, PHP, Java, ASP, ASP.NET, Node.js) used to<span class="btn btn-outline-primary" id="dots2">....</span><span id="more2"> deliver content and scripts to the client. Meanwhile, the other developer might focus on the interaction between server-side frameworks, the webserver, and a database system. Further, depending on the size of their organization, the aforementioned developers might work closely with a content creator/copywriter, marketing adviser, user experience designer, web designer, web producer, project manager, software architect, or database administrator - or they may be responsible for such tasks as web design and project management themselves.</span><button class="btn btn-outline-primary"  id="myBtn2" onclick="myFunction2()">read more</button></p>
+  </div>
+     <!--end---JUMBOTRON-------->
+    <!--start---ABOUT SECTION-------->
+    
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="papun.jpg" class="card-img" alt="image">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Er.PAPUN KUMAR</h5>
+          <p class="card-text"><strong>co-founder and CEO </strong>of this hyper dev company.Est 2020Sep </p>
+        <!---  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+        </div>
+      </div>
+    </div>
+  </div>
+  
+     <!--mid---ABOUT SECTION-------->
+    
+  <div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-4">
+      <div class="card">
+        <img src="pritam.png" class="card-img-top" alt="image1">
+        <div class="card-body">
+          <h5 class="card-title">Er. Pritam Rout</h5>
+          <p class="card-text">I am writing to express my interest in interviewing for the position of Web Developer. During my 5 years of experience as a full-stack Web Developer<span id="dots3">....</span><span id="more3">, I have developed both the functional and aesthetic components of client websites. I believe I can make an immediate impact on your organization with my unique blend of skills and passion.
+          My professional experience includes using programming languages such as HTML, CSS, and JavaScript to create various features for client websites. I also have experience in developing and managing SQL and PSQL databases. Combine this with my ability to thrive in a collaborative environment, and I think that makes me a perfect fit for Brickstone Digital.</span>   <button class="btn btn-outline-primary" id="myBtn3" onclick="myFunction3()">read more</button></p>
+         
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="lucky.jpg" class="card-img-top" alt="image2">
+        <div class="card-body">
+          <h5 class="card-title">Er.Lucky(team leader )</h5>
+          <p class="card-text">THigh level of proficiency with html, CSS, and JavaScript
+          Written and oral communication skills
+          Educational background in computer science
+          Problem solving skills
+          Knowledge of SQL/PSQL<span id="dots4">....</span><span id="more4">
+          Attention to detail
+          An eye for design
+          Teamwork
+          Ability to multitask.</span><button class="btn btn-outline-primary" id="myBtn4" onclick="myFunction4()">read more</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="jinu.png" class="card-img-top" alt="image3">
+        <div class="card-body">
+          <h5 class="card-title">Er.Jinu</h5>
+          <p class="card-text">I am responding to your recent ad for a Web Designer. I feel that my educational and professional background in website and software development will prove beneficial to this position and enhance the Internet presence of your company<span id="dots5">....</span><span id="more5">I am proficient in the use of JavaScript, HTML, WordPress and CSS. I have extensive experience in working with Adobe Photoshop, Illustrator, Dreamweaver and InDesign. I have used these tools to successfully create webpages, banners, ads and advertising materials. In addition, I have worked with mobile technologies for iOS and Android applications.</span>      <button class="btn btn-outline-primary" id="myBtn5" onclick="myFunction5()">read more</button></p>
+    
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="sourjyendu.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Er.Sourjyendu</h5>
+          <p class="card-text">In my current job I manage & maintain multiple corporate websites. As part of my work I utilize scripting languages including JavaScript PHP Perl. I use excellent written and verbal communication skills to<span id="dots6">....</span><span id="more6" >  communicate with colleagues and clients on a regular basis. Beyond excellent functional and technicalskills I also have very good interpersonal skills which allow me to work well either independently or as part of a team. My detail focus allows me to quickly troubleshoot issues and apply fixes. Additionally I set up and maintain very customer-friendly navigation and user interfaces.</span><button class="btn btn-outline-primary" id="myBtn6" onclick="myFunction6()">read more</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!--end---ABOUT SECTION-------->
+    
+      <!--start---FEATURES-------->
+    
+  <ul class="list-unstyled">
+    <li class="media">
+      <div class="media-body text-center">
+        <h5 class="mt-0 mb-1">WEB DESIGN</h5>
+            <a name="design"></a>
+        Designed a user-friendly webpage for Glow Worm Inc. that increased visitors to the site by more than 1,200 per month
+        Assumed project manager role for the design and implementation of a website for Dry Goods Flux
+        Oversaw the design of a website for Main Swoggle Systems with a team of five developers
+        Completed many website design projects under budget and within required deadlines
+        Certified in Java, Javascript and CSS
+        Obtained a Bachelor of Science in Web Design and Development from BYU-Idaho
+        
+      </div>
+    </li>
+    <li class="media my-4">
+      <div class="media-body text-center">
+        <h5 class="mt-0 mb-1">WEB DEVELOPER</h5>
+            <a name="develop"></a>
+        our team members are too good in development and quality product delivery.all are experience in development and Web Developers are responsible for creating websites that are both functionally and aesthetically pleasing to the user. The typical work activities of a Web Developer include back-end tasks such as developing databases, writing and testing code for website functions, troubleshooting code in existing features and brainstorming new features based 
+      </div>
+    </li>
+    <li class="media">
+      <div class="media-body text-center">
+        <h5 class="mt-0 mb-1">WEB SERVICES</h5>
+            <a name="services"></a>
+        our team is ready for give the client support and always available for services
+      </div>
+    </li>
+  </ul>
+  
+    <!--end---FEATURES-------->
+    
+    <!---start----FOOTER PART-------->
+        <a name="contact"></a>
+  <div class="card text-center bg-dark text-muted">
+    <div class="card-header">
+      contact us
+    </div>
+    
+   <!---start----FOOTER Contact form-------->
+   
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Rate Us </label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">we will Happy to see your message </label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="text area -write something...!"></textarea>
+          </div>
+        </form>
+        
+  <!----end---FOOTER Contact form-------->
+
+    <div class="card-body text-white bg-secondary">
+      <h5 class="card-title "><strong>ttech8926@gmail.com</strong></h5>
+      <p class="card-text">India</p>
+      <p class="card-text">Odisha, Sundargarh</p>
+      <p class="card-text">Bargaon-770014</p>
+      <a href="https://www.facebook.com/profile.php?id=100009543947553" target="blank" class="btn btn-primary fa fa-facebook"> </a>
+      <a href="https://twitter.com/PapunMahakul?s=09" class="btn btn-info fa fa-twitter"> </a>
+      <a href="https://www.linkedin.com/in/papun-mahakul-04b433190" class="btn btn-success fa fa-linkedin"></a>
+      <a href="https://www.instagram.com/?hl=en" class="btn btn-danger fa fa-instagram"></a>
+    </div>
+    <div class="card-footer bg-dark text-muted">
+      2 days ago
+      <p> pk dev &copy; 2020</p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
+
